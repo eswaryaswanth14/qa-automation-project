@@ -56,6 +56,10 @@ public class Demo extends BaseTest {
 	public void test() {
 		Assert.fail("Failed due to assertion");
 	}
+	@Test
+	public void check() {
+		System.out.println("Eswar");
+	}
 }
 
 
